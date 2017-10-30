@@ -1,0 +1,21 @@
+<header class="mainHeader {{modifier}}" role="header">
+    <div class="container">
+        {{!-- NOTE: Use general path --}}
+        <div class="row align-items-center">
+            <div class="logo-wrapper col-6 col-sm-5 col-md-3">
+                {{> components/header/logo 
+                    logoRoute="index.html"
+                    logoPath="images/logo/omniconvert.svg"
+                }}
+            </div>
+
+            <div class="navigation-wrapper col-6 col-sm-7 col-md-9">
+                {{> components/header/navigation }}
+
+                <button type="button" class="mobileMenu-toggle visible-xs" aria-label="Toggle Mobile Menu">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>

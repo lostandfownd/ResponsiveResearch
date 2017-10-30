@@ -1,0 +1,55 @@
+<nav class="mainNav {{modifier}}" role="navigation">
+    <ul>
+        <li class="has-dropdown">
+            <a class="mainNav-link" href="">
+                Features
+            </a>
+
+            <ul class="dropdown">
+                <div class="dropdown-inner">
+                    <li>
+                        <a href="#">
+                            Surveys
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            A/B Testing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Personalizations
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Advanced Segmentation Engine
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </li>
+        <li>
+            <a class="mainNav-link" href="">
+                Website Audit
+            </a>
+        </li>
+        <li>
+            <a class="mainNav-link" href="">
+                Resources
+            </a>
+        </li>
+        <li>
+            <a class="mainNav-link" href="">
+                Pricing
+            </a>
+        </li>
+        <li>
+            {{> components/buttons/login 
+                buttonRoute="login.html"
+                button-text="Login"
+            }}
+        </li>
+    </ul>
+</nav>

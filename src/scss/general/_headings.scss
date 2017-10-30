@@ -1,0 +1,40 @@
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.section-title {
+  display: block;
+  width: 100%;
+  padding-top: 27px;
+  margin-bottom: 68px;
+  position: relative;
+  color: #24273C;
+  font-size: 30px;
+  text-align: center;
+
+  &:before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    width: 60px;
+    background: $commonBlue;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  font-size: 28px;
+}

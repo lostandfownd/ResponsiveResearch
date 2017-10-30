@@ -1,0 +1,52 @@
+
+
+
+
+.input-group {
+    display: block;
+    width: 100%;
+    padding: 0 40px 0 0;
+    color: $textColor;
+    font-size: 12px;
+    &:last-child { padding-right: 0; }
+
+  input {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    background: none;
+    padding-bottom: 10px;
+    color: #24273C;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid #D9E3EF;
+    
+    &:focus {
+      outline: none;
+    }
+
+    &.is-valid {
+      border-bottom: 1px solid $commonGreen;
+    }
+
+    &.is-invalid {
+      border-bottom: 1px solid #FF5555;
+    }
+
+
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #5F7088;
+    }
+    *::-moz-placeholder { /* Firefox 19+ */
+      color: #5F7088;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      color: #5F7088;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: #5F7088;
+    }
+  }
+  
+
+}

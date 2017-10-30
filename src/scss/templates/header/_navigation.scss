@@ -1,0 +1,163 @@
+/* =============================================
+  Navigation
+ ============================================= */
+
+
+.mainNav {
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    position: relative;
+  }
+
+  .has-dropdown:hover .dropdown {
+    display: block !important;
+  }
+  
+  .dropdown {
+    display: none;
+    padding-top: 34px;
+    width: 160px;
+    position: absolute;
+    top: 0;
+    left: -40px;
+    right: 0;
+    
+
+    &-inner {
+      width: inherit;
+      padding: 20px;
+      background: #072b38;
+      border-radius: 4px;
+      text-align: left;
+    }
+
+    li {
+      display: block;
+    }
+
+    a {
+      display: block;
+      padding: 5px 0;
+      color: #fff;
+    }
+  }
+
+  &-link {
+    position: relative;
+    color: #242B3B;
+    font-size: 17px;
+    font-family: 'Helvetica';
+    margin-right: 35px;
+
+    &:hover {
+      color: #242B3B;
+      text-decoration: none;
+    }
+  }
+}
+
+.mobileNav {
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  background: #252525;
+  color: #858585;
+  z-index: 99;
+
+  border-right: 1px solid #161616;
+  left: -300px;
+  -webkit-transition: all 400ms linear;
+  -moz-transition: all 400ms linear;
+  transition: all 400ms linear;
+  .fa-plus {
+    margin-top: 5px;
+  }
+
+  .has-dropdown a {
+    margin-bottom: 0;
+  }
+
+  .dropdown {
+    display: none;
+    a {
+      display: block;
+      padding: 10px 0;
+      color: #fff;
+    }
+
+    &.is-visible { display: block !important; }
+  }
+
+  .box {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  &.is-active {
+    left: 0;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    transition: all 400ms linear;
+  }
+
+  .mobileMenu-toggle {
+    padding: 10px 0 0 30px;
+    color: #fff;
+    font-size: 30px;
+  }
+
+  &-link {
+    display: block;
+    margin: 18px 0;
+    color: #fff;
+    font-size: 20px;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .button-login {
+    margin-top: 40px;
+    min-width: 100%;
+    box-shadow: 1px 2px 0px 1px rgba(24, 161, 255, 0.74);
+  }
+}
+
+
+
+.mobileMenu-toggle {
+  display: none;
+  float: right;
+	cursor: pointer;
+	user-select: none;
+	padding: 10px;
+  background: none;
+  border: none;
+  font-size: 28px;
+
+	&:hover,
+	&:focus {
+    outline: 0;
+	}
+}
+
+@include media-breakpoint-down(md) { 
+  .mainNav {
+    display: none;
+  }
+
+  .mobileMenu-toggle {
+    display: block;
+  }
+}
+

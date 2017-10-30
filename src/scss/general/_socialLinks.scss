@@ -1,0 +1,9 @@
+.social-item {
+  vertical-align: text-top;
+  margin: 0 $socialIconGutter;
+  img {
+    display: inline-block;
+    width: $socialIconSize;
+    vertical-align: text-top;
+  }
+}

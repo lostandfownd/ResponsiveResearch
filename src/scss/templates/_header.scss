@@ -1,0 +1,15 @@
+/* =============================================
+  Header
+ ============================================= */
+ // Header specific imports
+@import 'header/navigation';
+
+.mainHeader {
+  display: inline-block;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.navigation-wrapper {
+  text-align: right;
+}

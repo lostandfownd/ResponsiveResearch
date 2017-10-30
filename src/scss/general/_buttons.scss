@@ -1,0 +1,44 @@
+/* =============================================
+  Navigation
+  * Use the bootstrap buttons with modifiers
+ ============================================= */
+
+
+// Common button styles
+.button-login,
+.button-contact {
+  padding: 15px 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Helvetica;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+
+// Button used for the login
+.button-login {
+  @include buttonHoverBackground($commonBlue, 5%);
+  min-width: 169px;
+  background: $commonBlue;
+  box-shadow: 0 3px 15px $commonBlue;
+}
+
+// Button used for the login
+.button-contact {
+  @include buttonHoverBackground($commonGreen, 5%);
+  width: 100%;
+  max-width: 192px;
+  background: $commonGreen;
+  box-shadow: 0 3px 15px $commonGreen;
+}
+
+.button-contact-blue {
+  @include buttonHoverBackground($commonBlue, 5%);
+  background: $commonBlue;
+  box-shadow: 0 3px 15px $commonBlue;
+}
