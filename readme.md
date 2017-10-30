@@ -15,42 +15,42 @@ Tech used
 ------------
 
 ```
-	gulp
-	https://gulpjs.com/
+gulp
+https://gulpjs.com/
 ```
 
 ```
-	gulp-compile-handlebars
-	https://github.com/kaanon/gulp-compile-handlebars
+gulp-compile-handlebars
+https://github.com/kaanon/gulp-compile-handlebars
 ```
 
 ```
-	bootstrap
-	https://getbootstrap.com/
+bootstrap
+https://getbootstrap.com/
 ```
 
 ```
-	Scss
+Scss
 ```
 
 ```
-	fontawesome
-	http://fontawesome.io/
+fontawesome
+http://fontawesome.io/
 ```
 
 ```
-	jquery
-	https://jquery.com/
+jquery
+https://jquery.com/
 ```
 
 ```
-	yarn
-	https://yarnpkg.com/en/
+yarn
+https://yarnpkg.com/en/
 ```
 
 ```
-	npm
-	https://www.npmjs.com/
+npm
+https://www.npmjs.com/
 ```
 
 
