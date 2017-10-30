@@ -63,13 +63,13 @@ Start
 
 
 ```
-	npm install
+npm install
 ```
 ```
-	yarn install 
+yarn install 
 ```
 ```
-	npm run build
+npm run build
 ```
 
 
@@ -80,7 +80,7 @@ Using Gulp
 Default Task
 ------------
 ```
-	gulp development
+gulp development
 ```
 
 Usi this task when working on the project
@@ -89,7 +89,7 @@ As this is not in vagrant you need to install gulp globaly or locally to run it
 Images
 ------------
 ```
-	gulp images
+gulp images
 ```
 
 Run this when adding new images to src so they get built in dist
@@ -100,5 +100,5 @@ TODO: Task
 
 For deploying to prod you have : 
 ```
-	npm run build
+npm run build
 ```
